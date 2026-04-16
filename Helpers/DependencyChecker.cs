@@ -11,7 +11,8 @@ namespace YoutubeMp3.Helpers
     public static class DependencyChecker
     {
         private static readonly string ToolsDir = System.IO.Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "tools");
+            Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+            "YoutubeMp3", "tools");
 
         public static string YtDlpPath  => System.IO.Path.Combine(ToolsDir, "yt-dlp.exe");
         public static string FfmpegPath => System.IO.Path.Combine(ToolsDir, "ffmpeg.exe");
