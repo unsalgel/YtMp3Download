@@ -1,0 +1,18 @@
+# Visual Studio / .NET
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Uygulamanın çalışma zamanında indirdiği büyük araçlar
+tools/
+*.zip
+
+# Mac / OS X
+.DS_Store
+
+# Windows
+Thumbs.db
