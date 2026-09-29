@@ -69,10 +69,5 @@ YoutubeMp3/
 │   └── SettingsManager.cs            # İndirme klasörü ayarlarının JSON olarak saklanması
 ├── app.manifest                      # Windows uyumluluk ve DPI farkındalık ayarları
 └── YoutubeMp3.csproj                 # Proje bağımlılık ve derleme yapılandırması
+
 ```
-
----
-
-## Lisans
-
-Bu proje kişisel ve eğitim amaçlı geliştirilmiştir. `yt-dlp` ve `FFmpeg` araçları kendi açık kaynak lisanslarına tabidir.
